@@ -1,57 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Smooth Print | Premium Printing & Packaging Services</title>
-    
+
     <!-- SEO Meta Tags -->
-    <meta name="description" content="Smooth Print offers premium printing and packaging services. High-quality catalogues, business cards, fancy boxes, brochures, flyers, and more.">
-    <meta name="keywords" content="printing services, packaging, business cards, brochures, flyers, custom boxes, offset printing, digital printing, India">
-    
+    <meta name="description"
+        content="Smooth Print offers premium printing and packaging services. High-quality catalogues, business cards, fancy boxes, brochures, flyers, and more.">
+    <meta name="keywords"
+        content="printing services, packaging, business cards, brochures, flyers, custom boxes, offset printing, digital printing, India">
+
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800;900&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
-    
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800;900&family=Playfair+Display:ital,wght@0,700;1,700&display=swap"
+        rel="stylesheet">
+
     <!-- Lucide Icons -->
     <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
-    
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Stylesheet -->
     <link rel="stylesheet" href="css/main.css">
 </head>
+
 <body>
     <!-- Navigation -->
-    <nav class="navbar" id="navbar">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-white bg-opacity-75 shadow-sm nav-blur" id="navbar">
         <div class="container">
-            <div class="navbar-inner">
-                <a href="#home" class="logo">
-                    <span class="logo-text">SMOOTH <strong>PRINT</strong></span>
-                </a>
-                
-                <ul class="nav-menu" id="navMenu">
-                    <li><a href="#home" class="nav-link">Home</a></li>
-                    <li><a href="#about" class="nav-link">About Us</a></li>
-                    <li><a href="#printing" class="nav-link">Printing</a></li>
-                    <li><a href="#packaging" class="nav-link">Packaging</a></li>
-                    <li><a href="#clients" class="nav-link">Clients</a></li>
+            <a href="#home" class="navbar-brand logo">
+                <span class="logo-text">SMOOTH <strong>PRINT</strong></span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu"
+                aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navMenu">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0 fw-bold text-uppercase nav-links-custom">
+                    <li class="nav-item"><a href="#home" class="nav-link text-dark px-3 position-relative">Home</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link text-dark px-3 position-relative">About Us</a>
+                    </li>
+                    <li class="nav-item"><a href="#printing"
+                            class="nav-link text-dark px-3 position-relative">Printing</a></li>
+                    <li class="nav-item"><a href="#packaging"
+                            class="nav-link text-dark px-3 position-relative">Packaging</a></li>
+                    <li class="nav-item"><a href="#clients"
+                            class="nav-link text-dark px-3 position-relative">Clients</a></li>
                 </ul>
-                
-                <div class="nav-cta">
-                    <a href="#contact" class="btn btn-magenta">Contact Us</a>
-                </div>
-                
-                <div class="nav-toggle" id="navToggle">
-                    <span></span>
-                    <span></span>
-                    <span></span>
+                <div class="d-flex">
+                    <a href="#contact"
+                        class="btn btn-magenta rounded-pill text-white fw-bold text-uppercase px-4 py-2 custom-btn">Contact
+                        Us</a>
                 </div>
             </div>
         </div>
     </nav>
 
     <!-- Hero / Cover Section -->
-    <section class="hero section-dark-blue" id="home">
+    <section
+        class="hero section-dark-blue position-relative overflow-hidden d-flex align-items-center justify-content-center min-vh-100"
+        id="home">
         <div class="world-map-overlay"></div>
         <div class="floating-words">
             <span class="word w1">Catalogue</span>
@@ -59,52 +72,72 @@
             <span class="word w3">Fancy Boxes</span>
             <span class="word w4">Flyers</span>
             <span class="word w5">Printed Box</span>
+            <span class="word w6">Labels</span>
+            <span class="word w7">Offset Printing</span>
+            <span class="word w8">Digital Printing</span>
+            <span class="word w9">Letterhead</span>
+            <span class="word w10">Envelopes</span>
+            <span class="word w11">Menu Cards</span>
+            <span class="word w12">Brochures</span>
+            <span class="word w13">Stickers</span>
+            <span class="word w14">Corrugated Boxes</span>
+            <span class="word w15">Hardbound Box</span>
         </div>
-        <div class="container relative z-10">
-            <div class="hero-content">
-                <div class="title-wrapper">
-                    <h1 class="main-title">SMOOTH PRINT</h1>
+        <div class="container position-relative z-10">
+            <div class="hero-content d-flex flex-column align-items-center text-center fw-bold">
+                <div class="title-wrapper d-inline-block px-4 py-2 mb-2">
+                    <h1 class="main-title text-uppercase fw-normal m-0 custom-skew">SMOOTH PRINT</h1>
                 </div>
-                <h2 class="sub-title">PRINTING & PACKAGING</h2>
+                <h2
+                    class="sub-title d-inline-block px-4 py-1 text-uppercase fw-normal m-0 bg-white text-dark custom-translate fw-semibold">
+                    PRINTING & PACKAGING</h2>
             </div>
         </div>
     </section>
 
     <!-- Introduction Section -->
-    <section class="about section-cyan" id="about">
+    <section class="about section-cyan py-5 position-relative overflow-hidden text-white" id="about">
         <div class="cmyk-stripes top-right"></div>
-        <div class="container">
-            <div class="about-header text-center">
-                <h2>WHAT WE LOVE TO DO!</h2>
+        <div class="container py-5">
+            <div class="about-header text-center mb-5">
+                <h2 class="display-4 fw-bold custom-font-accent">WHAT WE LOVE TO DO!</h2>
             </div>
-            
-            <div class="about-content">
-                <div class="about-text-box">
-                    <p class="lead-text">
-                        A group of highly motivated and skilled professionals committed to providing 
-                        the highest quality of professional advertising and printing solutions to customers. 
+
+            <div class="row align-items-center gy-5">
+                <div class="col-lg-6">
+                    <p class="fs-4 fw-semibold mb-4 lh-base">
+                        A group of highly motivated and skilled professionals committed to providing
+                        the highest quality of professional advertising and printing solutions to customers.
                         We pride ourselves on our state-of-the-art facilities and craftsmanship.
                     </p>
-                    <p>
-                        Through sincere and dedicated efforts, we aim to build a healthy and long-lasting 
+                    <p class="fs-5">
+                        Through sincere and dedicated efforts, we aim to build a healthy and long-lasting
                         reputation with our clients. We offer a wide range of products including:
                     </p>
-                    <ul class="feature-list">
-                        <li><i data-lucide="check-circle"></i> Printed Box</li>
-                        <li><i data-lucide="check-circle"></i> Catalogue</li>
-                        <li><i data-lucide="check-circle"></i> Flyer</li>
-                        <li><i data-lucide="check-circle"></i> And many more...</li>
+                    <ul class="list-unstyled mt-4 feature-list">
+                        <li class="d-flex align-items-center fs-5 fw-bold mb-3 gap-3"><i data-lucide="check-circle"
+                                class="text-warning"></i> Printed Box</li>
+                        <li class="d-flex align-items-center fs-5 fw-bold mb-3 gap-3"><i data-lucide="check-circle"
+                                class="text-warning"></i> Catalogue</li>
+                        <li class="d-flex align-items-center fs-5 fw-bold mb-3 gap-3"><i data-lucide="check-circle"
+                                class="text-warning"></i> Flyer</li>
+                        <li class="d-flex align-items-center fs-5 fw-bold mb-3 gap-3"><i data-lucide="check-circle"
+                                class="text-warning"></i> And many more...</li>
                     </ul>
                 </div>
-                
-                <div class="about-visuals">
-                    <div class="mockup mockup-1">
-                        <i data-lucide="box" class="mockup-icon"></i>
-                        <span>Premium Boxes</span>
+
+                <div class="col-lg-6 d-flex justify-content-center gap-4 about-visuals">
+                    <div
+                        class="mockup mockup-1 text-center p-4 rounded-3 text-dark border border-light border-opacity-25 bg-white bg-opacity-75 shadow-sm transition-transform">
+                        <i data-lucide="box" class="mockup-icon mb-3 text-warning"
+                            style="width: 60px; height: 60px;"></i>
+                        <span class="d-block fw-bold text-uppercase">Premium Boxes</span>
                     </div>
-                    <div class="mockup mockup-2">
-                        <i data-lucide="book-open" class="mockup-icon"></i>
-                        <span>Catalogues</span>
+                    <div
+                        class="mockup mockup-2 text-center p-4 rounded-3 text-dark border border-light border-opacity-25 bg-white bg-opacity-75 shadow-sm transition-transform">
+                        <i data-lucide="book-open" class="mockup-icon mb-3 text-warning"
+                            style="width: 60px; height: 60px;"></i>
+                        <span class="d-block fw-bold text-uppercase">Catalogues</span>
                     </div>
                 </div>
             </div>
@@ -112,10 +145,10 @@
     </section>
 
     <!-- Printing Services -->
-    <section class="printing section-black" id="printing">
-        <div class="container">
-            <div class="section-header text-center">
-                <h2 class="dripping-text">
+    <section class="printing section-black text-white py-5" id="printing">
+        <div class="container py-5">
+            <div class="section-header text-center mb-5">
+                <h2 class="dripping-text display-1 fw-bold d-flex justify-content-center flex-wrap gap-2">
                     <span class="color-c">P</span>
                     <span class="color-m">R</span>
                     <span class="color-y">I</span>
@@ -126,82 +159,107 @@
                     <span class="color-w">G</span>
                 </h2>
             </div>
-            
-            <div class="printing-grid">
-                <div class="printing-info">
-                    <p class="highlight-text">In-house setup of complete Offset Printing, Die Cutting & Lamination.</p>
-                    <div class="service-capabilities">
-                        <div class="capability-tag">OFFSET PRINTING</div>
-                        <div class="capability-tag">DIGITAL PRINTING</div>
+
+            <div class="row align-items-center gy-5">
+                <div class="col-lg-5">
+                    <p class="highlight-text fs-2 fw-bold lh-sm mb-4">In-house setup of complete Offset Printing, Die
+                        Cutting & Lamination.</p>
+                    <div class="d-flex flex-wrap gap-3">
+                        <div class="capability-tag px-3 py-2 rounded-pill border border-2 fw-bold text-uppercase">OFFSET
+                            PRINTING</div>
+                        <div class="capability-tag px-3 py-2 rounded-pill border border-2 fw-bold text-uppercase">
+                            DIGITAL PRINTING</div>
                     </div>
                 </div>
-                
-                <div class="services-list-container">
-                    <ul class="services-list">
-                        <li>Brochure</li>
-                        <li>Flyers</li>
-                        <li>Business Cards</li>
-                        <li>Letterhead</li>
-                        <li>Envelopes</li>
-                        <li>Folders</li>
-                        <li>Certificates</li>
-                        <li>Calendars</li>
-                        <li>Bookmarks</li>
-                        <li>Postcards</li>
-                        <li>Stickers & Labels</li>
-                        <li>Menu Cards</li>
-                    </ul>
+
+                <div class="col-lg-7">
+                    <div
+                        class="services-list-container p-4 rounded-3 border border-light border-opacity-25 bg-white bg-opacity-75 shadow-sm text-dark">
+                        <ul class="row list-unstyled m-0 g-4 services-list">
+                            <li class="col-sm-6 fs-5 fw-semibold position-relative ps-4 mb-3">Stickers & Labels</li>
+                            <li class="col-sm-6 fs-5 fw-semibold position-relative ps-4 mb-3">Brochure</li>
+                            <li class="col-sm-6 fs-5 fw-semibold position-relative ps-4 mb-3">Flyers</li>
+                            <li class="col-sm-6 fs-5 fw-semibold position-relative ps-4 mb-3">Letterhead</li>
+                            <li class="col-sm-6 fs-5 fw-semibold position-relative ps-4 mb-3">Envelopes</li>
+                            <li class="col-sm-6 fs-5 fw-semibold position-relative ps-4 mb-3">Folders</li>
+                            <li class="col-sm-6 fs-5 fw-semibold position-relative ps-4 mb-3">Certificates</li>
+                            <li class="col-sm-6 fs-5 fw-semibold position-relative ps-4 mb-3">Bookmarks</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-            
-            <div class="footer-note text-right">
-                <p class="printing-place-text">The Printing Place</p>
+
+            <div class="text-end mt-5 pt-4">
+                <p class="printing-place-text fs-2 fst-italic custom-font-accent m-0">The Printing Place</p>
             </div>
         </div>
     </section>
 
     <!-- Packaging Services -->
-    <section class="packaging section-magenta" id="packaging">
-        <div class="container">
-            <div class="section-header text-center">
-                <h2 class="white-text drop-shadow">PACKAGING</h2>
+    <section class="packaging section-magenta py-5" id="packaging">
+        <div class="container py-5">
+            <div class="section-header text-center mb-5">
+                <h2 class="text-white drop-shadow display-3 fw-bold mb-4">PACKAGING</h2>
             </div>
-            
+
             <div class="packaging-content">
-                <div class="text-white packaging-description">
-                    <p>We provide a wide range of packaging solutions including Corrugated boxes for heavy items such as appliances, wine, and fruit, as well as Paperboard cartons commonly used for fast food, cosmetics, and medicine.</p>
+                <div class="text-white text-center mx-auto mb-5" style="max-width: 800px;">
+                    <p class="fs-5 fw-semibold lh-lg">We provide a wide range of packaging solutions including
+                        Corrugated boxes for heavy items such as
+                        appliances, wine, and fruit, as well as Paperboard cartons commonly used for fast food,
+                        cosmetics, and medicine.</p>
                 </div>
-                
-                <div class="box-types-grid">
-                    <div class="box-card">
-                        <div class="box-visual">
-                            <i data-lucide="package"></i>
+
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-5 g-4 justify-content-center">
+                    <div class="col">
+                        <div
+                            class="box-card h-100 bg-white rounded-3 p-4 text-center shadow-sm border-bottom-5 transition-transform">
+                            <div class="box-visual mx-auto mb-3 d-flex align-items-center justify-content-center bg-warning rounded-circle text-dark"
+                                style="width: 80px; height: 80px;">
+                                <i data-lucide="package" style="width: 40px; height: 40px;"></i>
+                            </div>
+                            <h3 class="fs-5 fw-bold text-dark m-0">Master Carton</h3>
                         </div>
-                        <h3>Master Carton</h3>
                     </div>
-                    <div class="box-card">
-                        <div class="box-visual">
-                            <i data-lucide="box"></i>
+                    <div class="col">
+                        <div
+                            class="box-card h-100 bg-white rounded-3 p-4 text-center shadow-sm border-bottom-5 transition-transform">
+                            <div class="box-visual mx-auto mb-3 d-flex align-items-center justify-content-center bg-warning rounded-circle text-dark"
+                                style="width: 80px; height: 80px;">
+                                <i data-lucide="box" style="width: 40px; height: 40px;"></i>
+                            </div>
+                            <h3 class="fs-5 fw-bold text-dark m-0">Inner Carton</h3>
                         </div>
-                        <h3>Inner Carton</h3>
                     </div>
-                    <div class="box-card">
-                        <div class="box-visual">
-                            <i data-lucide="gift"></i>
+                    <div class="col">
+                        <div
+                            class="box-card h-100 bg-white rounded-3 p-4 text-center shadow-sm border-bottom-5 transition-transform">
+                            <div class="box-visual mx-auto mb-3 d-flex align-items-center justify-content-center bg-warning rounded-circle text-dark"
+                                style="width: 80px; height: 80px;">
+                                <i data-lucide="gift" style="width: 40px; height: 40px;"></i>
+                            </div>
+                            <h3 class="fs-5 fw-bold text-dark m-0">Fancy Box</h3>
                         </div>
-                        <h3>Fancy Box</h3>
                     </div>
-                    <div class="box-card">
-                        <div class="box-visual">
-                            <i data-lucide="layers"></i>
+                    <div class="col">
+                        <div
+                            class="box-card h-100 bg-white rounded-3 p-4 text-center shadow-sm border-bottom-5 transition-transform">
+                            <div class="box-visual mx-auto mb-3 d-flex align-items-center justify-content-center bg-warning rounded-circle text-dark"
+                                style="width: 80px; height: 80px;">
+                                <i data-lucide="layers" style="width: 40px; height: 40px;"></i>
+                            </div>
+                            <h3 class="fs-5 fw-bold text-dark m-0">Printed Box</h3>
                         </div>
-                        <h3>Printed Box</h3>
                     </div>
-                    <div class="box-card">
-                        <div class="box-visual">
-                            <i data-lucide="archive"></i>
+                    <div class="col">
+                        <div
+                            class="box-card h-100 bg-white rounded-3 p-4 text-center shadow-sm border-bottom-5 transition-transform">
+                            <div class="box-visual mx-auto mb-3 d-flex align-items-center justify-content-center bg-warning rounded-circle text-dark"
+                                style="width: 80px; height: 80px;">
+                                <i data-lucide="archive" style="width: 40px; height: 40px;"></i>
+                            </div>
+                            <h3 class="fs-5 fw-bold text-dark m-0">Hardbound Box</h3>
                         </div>
-                        <h3>Hardbound Box</h3>
                     </div>
                 </div>
             </div>
@@ -209,60 +267,75 @@
     </section>
 
     <!-- Clients Section -->
-    <section class="clients section-yellow relative" id="clients">
-        <div class="paint-spill absolute bottom-0 w-full"></div>
-        <div class="container relative z-10">
-            <div class="section-header text-center">
-                <h2 class="bubble-text dark-blue-text">OUR CLIENTS</h2>
+    <section class="clients section-yellow position-relative pb-5" id="clients">
+        <div class="container position-relative z-10 pt-5 pb-5">
+            <div class="section-header text-center mb-5 mt-4">
+                <h2 class="bubble-text dark-blue-text display-3 fw-bold">OUR CLIENTS</h2>
             </div>
-            
-            <div class="clients-grid">
-                <div class="client-logo">
-                    <div class="client-placeholder">MK (VB Group)</div>
+
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 justify-content-center g-4 mb-5 pb-5">
+                <div class="col">
+                    <div
+                        class="client-logo bg-white p-4 rounded-3 text-center shadow-sm h-100 d-flex flex-column align-items-center justify-content-center transition-transform custom-box-shadow-cyan gap-3">
+                        <img src="/img/clients_logo/lacarne_logo.png" alt="La Carne CUTS Logo" class="img-fluid"
+                            style="max-height: 100px;">
+                    </div>
                 </div>
-                <div class="client-logo">
-                    <div class="client-placeholder">IMT</div>
+                <div>
+                    <div
+                        class="client-logo bg-white p-4 rounded-3 text-center shadow-sm h-100 d-flex flex-column align-items-center justify-content-center transition-transform custom-box-shadow-cyan gap-3">
+                        <img src="/img/clients_logo/silica_logo.png" alt="Silica Logo" class="img-fluid"
+                            style="max-height: 100px;">
+                    </div>
                 </div>
-                <div class="client-logo">
-                    <div class="client-placeholder">La Carne CUTS</div>
-                </div>
-                <div class="client-logo">
-                    <div class="client-placeholder">PetroChina</div>
+                <div>
+                    <div
+                        class="client-logo bg-white p-4 rounded-3 text-center shadow-sm h-100 d-flex flex-column align-items-center justify-content-center transition-transform custom-box-shadow-cyan gap-3">
+                        <img src="/img/clients_logo/ivtech_logo.png" alt="IV Tech Logo" class="img-fluid"
+                            style="max-height: 100px;">
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Contact & Footer -->
-    <footer class="footer section-dark" id="contact">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-brand">
-                    <h3 class="footer-logo">SMOOTH <span>PRINT</span></h3>
-                    <p class="footer-desc">Premium printing and packaging services for all your business needs.</p>
+    <footer class="footer section-dark pt-5 pb-4 text-white border-top custom-border-cyan" id="contact">
+        <div class="container pt-4">
+            <div class="row gy-5 mb-5 justify-content-between">
+                <div class="col-lg-5">
+                    <div class="footer-brand">
+                        <h3 class="footer-logo fs-2 mb-4 text-warning fw-bold">SMOOTH <span
+                                class="text-white">PRINT</span></h3>
+                        <p class="footer-desc text-white-50 fs-5">Premium printing and packaging services for all your
+                            business needs.</p>
+                    </div>
                 </div>
-                
-                <div class="contact-card">
-                    <h4>Contact Us</h4>
-                    <ul class="contact-details">
-                        <li>
-                            <i data-lucide="map-pin"></i>
-                            <span>1792/4, Jawahar Colony, Faridabad, Haryana</span>
-                        </li>
-                        <li>
-                            <i data-lucide="phone"></i>
-                            <span>+91-99999 34848</span>
-                        </li>
-                        <li>
-                            <i data-lucide="mail"></i>
-                            <span>smoothprint@hotmail.com</span>
-                        </li>
-                    </ul>
+
+                <div class="col-lg-6">
+                    <div
+                        class="contact-card p-4 rounded-3 bg-white bg-opacity-75 border-start border-4 border-magenta text-black">
+                        <h4 class="text-magenta fs-3 mb-4 fw-bold">Contact Us</h4>
+                        <ul class="contact-details list-unstyled m-0">
+                            <li class="d-flex align-items-center gap-3 mb-3 fs-5">
+                                <i data-lucide="map-pin" class="text-dark"></i>
+                                <span class="text-dark fw-bold">1792/4, Jawahar Colony, Faridabad, Haryana</span>
+                            </li>
+                            <li class="d-flex align-items-center gap-3 mb-3 fs-5">
+                                <i data-lucide="phone" class="text-dark"></i>
+                                <span class="text-dark fw-bold">+91-99999 34848</span>
+                            </li>
+                            <li class="d-flex align-items-center gap-3 mb-3 fs-5">
+                                <i data-lucide="mail" class="text-dark"></i>
+                                <span class="text-dark fw-bold">smoothprint@hotmail.com</span>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-            
-            <div class="footer-bottom text-center">
-                <p>&copy; 2026 Smooth Print. All rights reserved.</p>
+
+            <div class="footer-bottom text-center pt-4 border-top border-light border-opacity-10 text-white-50">
+                <p class="m-0">&copy; 2026 Smooth Print. All rights reserved.</p>
             </div>
         </div>
     </footer>
@@ -270,7 +343,7 @@
     <!-- Scripts -->
     <script>
         lucide.createIcons();
-        
+
         // Navbar Scroll Effect
         const navbar = document.getElementById('navbar');
         window.addEventListener('scroll', () => {
@@ -280,29 +353,17 @@
                 navbar.classList.remove('scrolled');
             }
         });
-        
+
         // Mobile Navigation Toggle
         const navToggle = document.getElementById('navToggle');
         const navMenu = document.getElementById('navMenu');
-        
-        navToggle.addEventListener('click', () => {
-            navMenu.classList.toggle('active');
-            navToggle.classList.toggle('active');
-        });
-        
-        document.querySelectorAll('.nav-link').forEach(link => {
-            link.addEventListener('click', () => {
-                navMenu.classList.remove('active');
-                navToggle.classList.remove('active');
-            });
-        });
-        
+
         // Smooth Scroll
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function(e) {
+            anchor.addEventListener('click', function (e) {
                 e.preventDefault();
                 const targetId = this.getAttribute('href');
-                if(targetId === '#') return;
+                if (targetId === '#') return;
                 const target = document.querySelector(targetId);
                 if (target) {
                     target.scrollIntoView({
@@ -313,5 +374,7 @@
             });
         });
     </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
